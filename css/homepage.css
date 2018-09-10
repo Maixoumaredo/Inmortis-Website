@@ -1,0 +1,12 @@
+#img-background {
+    width: 100%;
+    min-height: 750px;
+    position: relative;
+    background: url(../images/img-background.png) center -200px /cover no-repeat,
+    #000;
+    background
+}
+
+h1#title-inmortis {
+    
+}
