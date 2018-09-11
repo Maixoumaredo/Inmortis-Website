@@ -1,12 +1,21 @@
-#img-background {
+body {
+    margin: 0;
+}
+
+#container-banner-background {
     width: 100%;
-    min-height: 750px;
-    position: relative;
-    background: url(../images/img-background.png) center -200px /cover no-repeat,
-    #000;
-    background
+    height: 100vh;
+    background: grey;
 }
 
 h1#title-inmortis {
-    
+    width: fit-content;
+    margin: 0 auto;
+    padding-top: 50vh;
+}
+
+#image-logo-inmortis {
+    width: auto;
+    height: 200px;
+    margin-top: -200px;
 }
