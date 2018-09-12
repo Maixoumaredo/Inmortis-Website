@@ -16,7 +16,7 @@ h1#title-inmortis {
     margin-left: -65px;
     padding-top: 106px;
     left: 50%;
-    top: 0px;
+    top: 110px;
 }
 
 #image-logo-inmortis {
@@ -25,19 +25,19 @@ h1#title-inmortis {
 }
 
 #gif-logo {
-    top: -48px;
+    top: 62px;
     left: 50%;
     margin-left: -250px;
     position: absolute;
     width: 500px;
 }
 
-#hand-gif{
+#hand-gif {
     left: 50%;
-    margin-left: -192px;
+    margin-left: -17.5vh;
     position: absolute;
-    width: 400px;
-    margin-top: 30px;
+    width: 35vh;
+    bottom: 0;
 }
 
 #coming-soon {
@@ -52,13 +52,19 @@ h1#title-inmortis {
 }
 
 #container-gif {
-    text-align: center;
     z-index: 1;
+}
+
+#weird-stuff {
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+    pointer-events: none;
 }
 
 @media (max-width: 600px) {
     #gif-logo {
-        top: -36px;
+        top: 76px;
         left: 50%;
         margin-left: -150px;
         position: absolute;
@@ -80,9 +86,9 @@ h1#title-inmortis {
         height: 290px;
     }
     #hand-gif {
-        margin-top: 0px; 
-        width: 275px;
-        margin-left: -119.5px;
+        margin-top: 0px;
+        width: 40vh;
+        margin-left: -20vh;
         bottom: 0px;
     }
     #coming-soon {
